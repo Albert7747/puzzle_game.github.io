@@ -7,7 +7,7 @@ const myLink = document.querySelector(".change_web");
 submit.addEventListener("click", function() {
     //  alert("嗨嗨");
     if(txt.value=="16460701"){
-        myLink.setAttribute("href","/Puzzle_second_result.html");
+        myLink.setAttribute("href","https://albert7747.github.io/puzzle_game.github.io/Puzzle_second_result.html");
     }else{
         alert("答錯了，再想想看吧！")
     }
