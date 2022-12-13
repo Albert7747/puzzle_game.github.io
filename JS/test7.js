@@ -7,7 +7,7 @@ const Easter_web = document.querySelector(".Easter_web");
 // // //監聽事件
 submit.addEventListener("click", function () {
   if (txt.value == "敍嘉生日快樂") {
-    myLink.setAttribute("href","/Puzzle_fifth_result.html");
+    myLink.setAttribute("href","https://albert7747.github.io/puzzle_game.github.io/Puzzle_fifth_result.html");
   } else {
     alert("答錯了，再想想看吧！");
   }
