@@ -7,7 +7,7 @@
   submit.addEventListener("click", function(event) {
       //  alert("嗨嗨");
       if(txt.value=="2018"){
-        myLink.setAttribute("href","/Puzzle_one_result.html");
+        myLink.setAttribute("href","https://albert7747.github.io/puzzle_game.github.io/Puzzle_one_result.html");
         //   alert("嗨嗨");
       }else{
           alert("答錯了，你一定是漏掉什麼重要線索啦！")
