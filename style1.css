@@ -1,0 +1,54 @@
+.wrap{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .container-fluid{
+    padding-top :100px;
+  }
+  .row p ,li{
+    font-size:22px;
+    text-indent: 32px;
+  }
+  .col-sm-12 p{
+    margin-bottom:40px;
+  }
+  .blue{
+    color:blue;
+  }
+  .row a{
+    color:white;
+  }
+  .row a:hover{
+    background: green;
+    color:white;
+    font-size:24px;
+    text-decoration:none;
+  }
+  .extra{
+    margin-bottom: 30px;
+  }
+  .start{  
+      font-size: 24px;
+      display: block;
+      background: blue;
+      color:white;  
+      width: 220px;
+      padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+  
+  }
+  
+  a:hover{
+      color: red;
+  }
+  h1{
+      text-align: center;
+      font-size: 50px;
+      font-weight: 500;
+  }
+  .row{
+    flex-direction:row ;
+    align-items: center;
+  }
+  
