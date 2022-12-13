@@ -1,0 +1,29 @@
+.wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container-fluid{
+    padding-top :100px;
+  }
+  .row p ,li{
+    font-size:22px;
+    text-indent: 32px;
+  }
+  .col-sm-12 pre{
+    font-size:22px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .NextPuzzle{
+    margin-left:20px;
+    padding-bottom:50px;
+  }
+  .row  a{
+    color: blue;
+    font-size:20px;
+  }
+  .row a:hover{
+    color: red;
+    font-size:24px;
+    text-decoration:none;
+  }

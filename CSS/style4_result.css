@@ -1,0 +1,44 @@
+.wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container-fluid{
+    padding-top :100px;
+  }
+  .row p ,li{
+    font-size:22px;
+    text-indent: 32px;
+  }
+  .picture{
+    width: 80%;
+    margin-bottom:20px;
+  }
+  .puzzle{
+    padding-left:30%;
+    margin-bottom:40px;
+  }
+  .col-sm-11{
+    margin-top:10px;
+    font-size:22px;
+  }
+  .col-sm-11  a{
+    color: blue;
+  }
+  .col-sm-11 li{
+    margin-bottom:10px;
+  }
+  .row a:hover{
+    color: red;
+    font-size:24px;
+    text-decoration:none;
+  }
+  .col-sm-11 p{
+    padding-left:40px;
+  }
+  .blue{
+    color: blue;
+  }
+  .NextPuzzle{
+    margin-left:40px;
+    padding-bottom:50px;
+  }

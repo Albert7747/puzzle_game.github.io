@@ -1,0 +1,48 @@
+.wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container-fluid {
+    padding-top: 100px;
+  }
+  .row p,
+  li {
+    font-size: 22px;
+    text-indent: 32px;
+  }
+  .row a {
+    color: blue;
+    font-size: 24px;
+  }
+  .row a:hover {
+    color: red;
+    font-size: 26px;
+    text-decoration: none;
+  }
+  .col-sm-6 {
+    margin-left: 40px;
+  }
+  .col-sm-6 p,
+  .col-sm-5 p {
+    margin-top: 20px;
+    padding-right: 60px;
+  }
+  
+  .puzzle {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 70px;
+  }
+  .answer,
+  .Easter,
+  .question {
+    font-size: 22px;
+    padding-left: 40px;
+  }
+  .hint {
+    margin-bottom: 80px;
+  }
+  .Easter_answer {
+    margin-top: 30px;
+  }
+  

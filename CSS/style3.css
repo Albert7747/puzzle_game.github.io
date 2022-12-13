@@ -1,0 +1,114 @@
+/* *{
+  border: 1px solid black;
+} */
+.wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .content img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom:20px;
+  }
+  .container-fluid{
+    padding-top :100px;
+  }
+  .row p,li{
+    text-indent: 32px;
+    font-size:22px;
+  }
+  .col-sm-12 p{
+    margin-bottom:40px;
+  }
+  
+  .answer{
+    margin-top:40px;
+    margin-bottom:40px;
+  }
+  .row a{
+    color: blue;
+    font-size:20px;
+  }
+  .row a:hover{
+    color: red;
+    font-size:24px;
+    text-decoration:none;
+  }
+  .answer{
+    font-size:20px;
+    padding-left:40px;
+  }
+  .hint{
+    margin-bottom:80px;
+  }
+  .btn_answer{
+    margin-left: 15px;
+  }
+  .ui-widget-content{
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  #id_1 {
+    border-top:3px solid red ;
+    border-right:3px solid red ;
+    border-bottom:3px solid black ;
+    border-left:3px solid black ;
+  }
+  
+  #id_2{
+    border-top:3px solid red ;
+    border-right:3px solid black ;
+    border-bottom:3px solid blue ;
+    border-left:3px solid red ;
+  }
+  
+  #id_3{
+    border-top:3px solid red ;
+    border-right:3px solid blue ;
+    border-bottom:3px solid black ;
+    border-left:3px solid blue ;
+  }
+  
+  #id_4{
+    border-top:3px solid black ;
+    border-right:3px solid blue ;
+    border-bottom:3px solid black ;
+    border-left:3px solid blue ;
+  }
+  
+  #id_5{
+    border-top:3px solid blue ;
+    border-right:3px solid black ;
+    border-bottom:3px solid black;
+    border-left:3px solid #40e376 ;
+  }
+  
+  
+  #id_6{
+    border-top:3px solid black ;
+    border-right:3px solid black ;
+    border-bottom:3px solid #be43f7 ;
+    border-left:3px solid #40e376 ;
+  }
+  
+  #id_7{
+    border-top:3px solid black ;
+    border-right:3px solid #be43f7 ;
+    border-bottom:3px solid #be43f7;
+    border-left:3px solid #be43f7 ;
+  }
+  
+  #id_8{
+    border-top:3px solid black ;
+    border-right:3px solid #be43f7 ;
+    border-bottom:3px solid #be43f7;
+    border-left:3px solid #be43f7 ;
+  }
+  .photo_8{
+    height: 142px;
+  }
+  .nav-link:hover{
+    color:blue;
+  }
+  
+  

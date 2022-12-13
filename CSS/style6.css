@@ -1,0 +1,35 @@
+.wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container-fluid{
+    padding-top :100px;
+  }
+  .row p ,li{
+    font-size:22px;
+    text-indent: 32px;
+  }
+  .word{
+    margin-bottom:30px;
+  }
+  .puzzle{
+    margin:0 auto;
+    display:block;
+    margin-bottom:70px;
+  }
+  .row a{
+    color: blue;
+    font-size:20px;
+  }
+  .row a:hover{
+    color: red;
+    font-size:24px;
+    text-decoration:none;
+  }
+  .hint{
+    margin-bottom:80px;
+  }
+  .answer{
+    font-size:24px;
+    padding-left:40px;
+  }

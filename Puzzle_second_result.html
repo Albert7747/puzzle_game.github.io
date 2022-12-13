@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>網頁解謎遊戲2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/CSS/style4_result.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="shortcut icon" href="https://albert7747.github.io/picture/puzzle_logo.png" type="image/x-icon">
+</head>
+<body>
+<div class="wrap">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #edb4fa;">
+    <a class="navbar-brand" href="#"><img src="https://albert7747.github.io/picture/puzzle_logo.png" width="60px" alt="Puzzle logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/Puzzle.html" style="color: black;">首頁</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#s1" style="color: black;">謎題二解說</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#s2" style="color: black;">故事與彩蛋</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Puzzle_third.html" style="color: black;">下一個謎題</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+<div class="wrap">
+  <section id="s1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>謎題二解說</h2>
+        <hr>
+  <img class="picture" src="https://albert7747.github.io/picture/謎題2+.jpg" alt="微積分題目">
+<p>上面那題的答案算出來是1067879428，仔細觀察可發現上面剛好也有十個英文字母，可知是一個字母對應一個數字，比如:C對應的是1，L對應的就是0，以此類推。然後就根據下圖迷宮的起點，走到終點，會發現一共經歷<span class="blue">CUSULALC</span>這串英文，把他們按照上面題目的找到的各個英文對應的數字進行轉換，將可以得到<span class="blue">16460701</span>這個答案。</p>
+  <img class="puzzle"  src="https://albert7747.github.io/picture/迷宮(終搞).jpg" alt="puzzle">
+      </div>
+    </div>
+  </div>
+</section> 
+    <section id="s2">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>故事與彩蛋</h2>
+        <hr>
+      </div>
+      <div class="col-sm-8">
+        <p>爺爺說道: 齁，都是那些皇家學會的人在那邊亂傳，說什麼牛頓是微積分之父，萊布尼茲是抄襲者，讓後世誤會他們的關係，這根本是謬論，第一個創造出微積分的明明就是偉大的萊布尼茲，牛頓他才是可惡的抄襲者，哼。</p>  
+      </div>
+      <div class="col-sm-4">
+        <img src="https://albert7747.github.io/picture/萊布尼茲.jpg" alt="Leibniz照片" width="200px" >
+      </div>
+   <div class="col-sm-11">
+     小小彩蛋: 
+     <li>彩蛋一:</li><p>1646/07/01這個數字剛好是萊布尼茲的生日，以下附上他的<a href="https://zh.wikipedia.org/wiki/%E6%88%88%E7%89%B9%E5%BC%97%E9%87%8C%E5%BE%B7%C2%B7%E8%8E%B1%E5%B8%83%E5%B0%BC%E8%8C%A8" target="_blank">維基百科介紹</a></p> 
+     <li>彩蛋二:</li><p>剛剛那題得出的數字對應各自的英文，可以組成 CUSULALC這串英文，把他們重組後就可以得到<span class="blue">Calculus</span>，也就是微積分的英文。這個你能找到我真的給你跪下了，就連作者我在看到之前寫的文字檔時，我也嚇到了，不經佩服我當初真的太厲害了，怎麼可以把數字和微積分英文串起來。</p>
+  <a class="NextPuzzle" href="/Puzzle_third.html">前往謎題三</a>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</body>
+</html>
+
+

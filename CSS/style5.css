@@ -1,0 +1,45 @@
+.wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .content img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom:20px;
+  }
+  .container-fluid{
+    padding-top :100px;
+  }
+  .row p ,li{
+    font-size:22px;
+    text-indent: 32px;
+  }
+  .col-sm-12 p{
+    margin-bottom:40px;
+  }
+  .row h4{
+    margin-bottom:20px;
+  }
+  .answer{
+    margin-top:40px;
+    margin-bottom:40px;
+  }
+  .row a{
+    color: blue;
+    font-size:20px;
+  }
+  .row a:hover{
+    color: red;
+    font-size:24px;
+    text-decoration:none;
+  }
+  .answer{
+    font-size:20px;
+    padding-left:40px;
+  }
+  .hint{
+    margin-bottom:80px;
+  }
+  .btn_answer{
+    margin-left: 15px;
+  }
