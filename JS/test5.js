@@ -15,7 +15,8 @@ submit.addEventListener("click", function () {
         }else{ alert("答錯了，再想想看吧！"); }
       }else if(txt_2.value == "讓我為你唱情歌"){
         if(txt_3.value == "等一個人"){
-            myLink.setAttribute("href","https://albert7747.github.io/puzzle_game.github.io/Puzzle_third_result.html");}else{ alert("答錯了，再想想看吧！"); }
+            myLink.setAttribute("href","https://albert7747.github.io/puzzle_game.github.io/Puzzle_third_result.html");}
+        else{ alert("答錯了，再想想看吧！"); }
       }else{ alert("答錯了，再想想看吧！"); }
      
     }
