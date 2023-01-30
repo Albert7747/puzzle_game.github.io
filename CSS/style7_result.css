@@ -1,37 +1,41 @@
 .wrap{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .container-fluid{
-    padding-top :100px;
-  }
-  .row p ,li{
-    font-size:22px;
-    text-indent: 32px;
-  }
-  .col-sm-12 p{
-    margin-bottom:40px;
-  }
-  .blue{
-    color:blue;
-    font-weight: bolder;
-  }
-  .NextPuzzle{
-    margin-left:40px;
-    padding-bottom:50px;
-  }
-  .row a{
-    font-size:20px;
-    color: blue;
-  }
-  .row a:hover{
-    color: red;
-    font-size:24px;
-    text-decoration:none;
-  }
-  .extra{
-    margin-bottom: 30px;
-  }
-  .hint{
-    font-size:22px;
-  }
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container-fluid{
+  padding-top :100px;
+}
+.row p ,li{
+  font-size:22px;
+  text-indent: 32px;
+}
+.col-sm-12 p{
+  margin-bottom:40px;
+}
+.blue{
+  color:blue;
+  font-weight: bolder;
+}
+.NextPuzzle{
+  margin-left:40px;
+  padding-bottom:50px;
+}
+.row a{
+  font-size:22px;
+  color: blue;
+  font-weight:bolder;
+}
+.row a:hover{
+  color: red;
+  font-size:26px;
+  text-decoration:none;
+}
+.extra{
+  margin-bottom: 30px;
+}
+.hint{
+  font-size:22px;
+}
+.blue{
+  color:blue;
+}
