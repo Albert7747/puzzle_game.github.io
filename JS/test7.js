@@ -20,7 +20,7 @@ const txt_Easter = document.querySelector(".txt_Easter");
 // 彩蛋的監聽事件
 Easter_submit.addEventListener("click", function (e) {
   if (txt_Easter.value == "永琮") {
-    alert("嗨嗨嗨");
+    alert("恭喜你答對了，如果好奇為什麼的話，可以聯絡本作者");
   } else {
     alert("答錯了，再想想看吧！");
   }
